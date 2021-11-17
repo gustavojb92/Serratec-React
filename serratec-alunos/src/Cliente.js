@@ -1,9 +1,15 @@
-
-function Cliente() {
-    return ( <div> 
+import Botao from './Botao';
+ 
+function Cliente({ nome }) {
+    return (
         
-        < h1 > Dados do Cliente </h1> 
-        <p > nome: Gustavo </p>
+        <div style={{backgroundColor: "aqua"}}>      
+        <h1> Dados do Cliente </h1> 
+        <p> Nome: {nome} </p>
+
+        <Botao>Cadastrar</Botao>
+        <Botao>Editar</Botao>
+        <Botao>Deletar</Botao>
         </div>
     );
 }

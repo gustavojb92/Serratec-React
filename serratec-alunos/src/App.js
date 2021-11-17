@@ -1,17 +1,13 @@
-import Button from "./Button";
-import Cliente from "./Cliente";
-import './App.css';
 
+import ClienteList from "./ClienteList";
+import './App.css';
 
 function App() {
     return ( <div >
        
-        testes
-
-        <Cliente />
-        <Button>teste</Button>
+       <ClienteList />
+        
         </div>
     );
 }
-
 export default App;
