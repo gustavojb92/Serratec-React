@@ -1,11 +1,11 @@
 
-import ClienteList from "./ClienteList";
+import ListagemAlunos from "./pages/Aula3/pages/ListagemAlunos"
 import './App.css';
 
 function App() {
     return ( <div >
        
-       <ClienteList />
+       <ListagemAlunos />
         
         </div>
     );
